@@ -15,6 +15,7 @@ class Students(models.Model):
     phoneno = models.CharField(max_length=255, default='')
     email = models.TextField(default='')
     picture = models.TextField(default='')
+    password = models.CharField(default='')
 
 
     def __str__(self):
