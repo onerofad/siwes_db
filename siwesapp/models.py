@@ -6,6 +6,7 @@ class Students(models.Model):
     middlename = models.CharField(max_length=255, default="")
     lastname = models.CharField(max_length=255, default="")
     matricno = models.CharField(max_length=255)
+    birthdate = models.CharField(max_length=255, default="")
     programme = models.TextField(default='')
     faculty = models.TextField(default='')
     department = models.TextField(default='')
