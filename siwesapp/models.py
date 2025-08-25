@@ -15,6 +15,7 @@ class Students(models.Model):
     phoneno = models.CharField(max_length=255, default='')
     email = models.TextField(default='')
     picture = models.TextField(default='')
+    session = models.TextField(default='')
     password = models.CharField(default='')
 
 
