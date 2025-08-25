@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 
 from rest_framework import routers
-from siwesapp.views import StudentView
+from siwesapp.views import StudentView, SiwesDetailsView
 
 router = routers.DefaultRouter()
 router.register('students', StudentView, 'student')
+router.register('studentviews', SiwesDetailsView, 'studentview')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
