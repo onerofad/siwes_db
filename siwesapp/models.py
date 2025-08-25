@@ -22,3 +22,14 @@ class Students(models.Model):
 
     def __str__(self):
         return self.matricno
+    
+class SiwesDetails(models.Model):
+    endDate = models.CharField(max_length=255)
+    startDate = models.CharField(max_length=255)
+    deadline = models.CharField(max_length=255)
+    session = models.CharField(max_length=255)
+    department = models.CharField(max_length=255)
+    faculty = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.deadline
