@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='students',
             name='password',
-            field=models.CharField(default=''),
+            field=models.CharField(max_length=255, default=''),
         ),
     ]

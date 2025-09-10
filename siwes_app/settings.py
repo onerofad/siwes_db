@@ -79,16 +79,20 @@ WSGI_APPLICATION = 'siwes_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-#}
-
 DATABASES = {
-'default': dj_database_url.parse(f'postgresql://postgres:ELdIsTkEbLtzUVHyDxhaHAcQbxgbSyGL@gondola.proxy.rlwy.net:24466/railway')
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'siwes_db',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306'
+    }
 }
+
+#DATABASES = {
+#'default': dj_database_url.parse(f'postgresql://postgres:ELdIsTkEbLtzUVHyDxhaHAcQbxgbSyGL@gondola.proxy.rlwy.net:24466/railway')
+#}
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
