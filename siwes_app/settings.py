@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'siwes_app.wsgi.application'
 #}
 
 DATABASES = {
-'default': dj_database_url.parse(f'postgresql://postgres:ELdIsTkEbLtzUVHyDxhaHAcQbxgbSyGL@gondola.proxy.rlwy.net:24466/railway')
+'default': dj_database_url.parse(f'postgresql://postgres:YHXqXvZbJoGrJoEMIHBHcblytUuzKAmU@centerbeam.proxy.rlwy.net:27642/railway')
 }
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
