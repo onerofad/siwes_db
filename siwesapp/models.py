@@ -64,6 +64,9 @@ class PaymentDetails(models.Model):
     matricno = models.CharField(max_length=255)
     surname = models.CharField(max_length=255)
     othernames = models.CharField(max_length=255)
+    phoneno = models.CharField(max_length=255, default='')
+    email = models.CharField(max_length=255, default='')
+
     
 
     def __str__(self):
