@@ -95,3 +95,20 @@ class Discipline(models.Model):
     def __str__(self):
         return self.disciplineName
 
+class StudentDetails(models.Model):
+    MatricNo = models.CharField(max_length=255)
+    Surname = models.CharField(max_length=255)
+    OtherNames = models.CharField(max_length=255)
+    Gender = models.CharField(max_length=255)
+    Faculty= models.CharField(max_length=255)
+    Department = models.CharField(max_length=255)
+    Discipline = models.CharField(max_length=255)
+    Programme = models.CharField(max_length=255)
+    Level = models.CharField(max_length=255)
+    Email = models.CharField(max_length=255)
+    Phone = models.CharField(max_length=255)
+    PictureLink = models.TextField()
+
+    def __str__(self):
+        return self.MatricNo
+
