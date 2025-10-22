@@ -96,7 +96,7 @@ class Discipline(models.Model):
         return self.disciplineName
 
 class StudentDetails(models.Model):
-    MatricNo = models.CharField(max_length=255)
+    MatricNo = models.CharField(max_length=255, unique=True)
     Surname = models.CharField(max_length=255)
     OtherNames = models.CharField(max_length=255)
     Gender = models.CharField(max_length=255)
