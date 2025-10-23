@@ -142,6 +142,7 @@ CORS_ORIGIN_WHITELIST = [
     'https://siwes.delsutestserver.ng',
     'https://siwes-two.vercel.app',
     'http://localhost',
+    'https://hostel.delsutestserver.ng',
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
