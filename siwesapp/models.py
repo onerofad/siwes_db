@@ -40,6 +40,11 @@ class SiwesDetails(models.Model):
     town = models.CharField(max_length=255, default='')
     street = models.TextField(default='')
 
+    level = models.TextField(default='')
+    email = models.TextField(default='')
+    phone = models.TextField(default='')
+
+
 
     def __str__(self):
         return self.matricno
