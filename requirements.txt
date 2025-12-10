@@ -4,7 +4,6 @@ Django==4.2.7
 django-cors-headers==4.3.0
 djangorestframework==3.14.0
 pathlib2==2.3.7.post1
-psycopg2==2.9.11
 psycopg2-binary==2.9.11
 pytz==2025.2
 six==1.17.0
