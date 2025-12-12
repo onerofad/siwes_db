@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y%4jqfr9i(b%jtoxhkfa4$v+a_o36gy!5ujqr@qah_j!4e87y$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', 'localhost', 'siwesweb.delsu.edu.ng' 'https://siwes.v5s.co.uk', 'https://siwes.delsutestserver.ng', 'https://siwes-two.vercel.app, http://localhost/studentportal']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', 'localhost', 'https://r.delsu.edu.ng' 'https://siwes.v5s.co.uk', 'https://siwes.delsutestserver.ng', 'https://siwes-two.vercel.app, http://localhost/studentportal']
 
 
 # Application definition
@@ -141,7 +141,7 @@ CORS_ORIGIN_WHITELIST = [
     'https://siwes.delsutestserver.ng',
     'https://siwes-two.vercel.app',
     'http://localhost',
-    'https://hostel.delsutestserver.ng',
+    'https://r.delsu.edu.ng',
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
