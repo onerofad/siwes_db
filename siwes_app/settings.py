@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y%4jqfr9i(b%jtoxhkfa4$v+a_o36gy!5ujqr@qah_j!4e87y$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', 'localhost', 'https://siwes.v5s.co.uk', 'https://siwes.delsutestserver.ng', 'https://siwes-two.vercel.app, http://localhost/studentportal']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', 'localhost', 'siwesweb.delsu.edu.ng' 'https://siwes.v5s.co.uk', 'https://siwes.delsutestserver.ng', 'https://siwes-two.vercel.app, http://localhost/studentportal']
 
 
 # Application definition
@@ -78,7 +78,6 @@ WSGI_APPLICATION = 'siwes_app.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
 #DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.mysql',
