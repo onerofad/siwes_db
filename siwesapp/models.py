@@ -44,6 +44,10 @@ class SiwesDetails(models.Model):
     email = models.TextField(default='')
     phone = models.TextField(default='')
 
+    accountname = models.TextField(default='')
+    accountno = models.TextField(default='')
+    bankname = models.TextField(default='')
+
 
 
     def __str__(self):
