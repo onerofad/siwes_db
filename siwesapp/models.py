@@ -48,6 +48,10 @@ class SiwesDetails(models.Model):
     accountno = models.TextField(default='')
     bankname = models.TextField(default='')
 
+    whatsapp_phone = models.TextField(default='')
+    bankcode = models.TextField(default='')
+    sortcode = models.TextField(default='')
+
 
 
     def __str__(self):
