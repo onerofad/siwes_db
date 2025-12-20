@@ -1,4 +1,4 @@
-from .models import Students, SiwesDetails, LocationDetails, PaymentDetails, Faculty, Department, Discipline, StudentDetails
+from .models import Students, SiwesDetails, LocationDetails, PaymentDetails, Faculty, Department, Discipline
 from rest_framework import serializers
 
 class StudentSerializer(serializers.ModelSerializer):
@@ -37,8 +37,3 @@ class DisciplineSerializer(serializers.ModelSerializer):
         fields = '__all__'
         model = Discipline
 
-
-class StudentDetailSerializer(serializers.ModelSerializer):
-    class Meta:
-        fields = '__all__'
-        model = StudentDetails
