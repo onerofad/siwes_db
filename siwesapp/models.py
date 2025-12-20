@@ -71,12 +71,10 @@ class PaymentDetails(models.Model):
     amount2 = models.FloatField(default=0)
     location = models.TextField(default='')
     matricno = models.CharField(max_length=255)
-    surname = models.CharField(max_length=255)
-    othernames = models.CharField(max_length=255)
+    fullname = models.TextField(default='')
     phoneno = models.CharField(max_length=255, default='')
     email = models.CharField(max_length=255, default='')
 
-    
 
     def __str__(self):
         return self.reference_id
