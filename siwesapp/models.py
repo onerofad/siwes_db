@@ -74,6 +74,8 @@ class PaymentDetails(models.Model):
     fullname = models.TextField(default='')
     phoneno = models.CharField(max_length=255, default='')
     email = models.CharField(max_length=255, default='')
+    status = models.CharField(max_length=255, default='')
+
 
 
     def __str__(self):
