@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Students5(models.Model):
+class Students6(models.Model):
     title = models.CharField(max_length=255, default='')
     surname = models.CharField(max_length=255, default="")
     othernames = models.CharField(max_length=255, default="")
