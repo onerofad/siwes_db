@@ -1,10 +1,10 @@
-from .models import Students3, SiwesDetails, LocationDetails, PaymentDetails, Faculty, Department, Discipline
+from .models import Students4, SiwesDetails, LocationDetails, PaymentDetails, Faculty, Department, Discipline
 from rest_framework import serializers
 
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         fields = '__all__'
-        model = Students3
+        model = Students4
 
 class SiwesDetailsSerializer(serializers.ModelSerializer):
     class Meta:
