@@ -21,6 +21,8 @@ class Students7(models.Model):
         return self.matricno
     
 class SiwesDetails(models.Model):
+    surname = models.CharField(max_length=255, default='')
+    othernames = models.CharField(max_length=255, default='')
     endDate = models.DateField(default='2025-08-28')
     startDate = models.DateField(default='2025-08-28')
     deadline = models.DateField(default='2025-08-28')
